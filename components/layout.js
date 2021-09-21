@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = "Mr. Whale Steward"
+const currYear = new Date().getFullYear()
 export const siteTitle = 'Next.js Sample Website'
 
 
@@ -68,7 +69,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <div className={styles.footer}>devel version</div>
+      <div className={styles.footer}> {name}&copy; {currYear}</div>
     </div>
   )
 }
