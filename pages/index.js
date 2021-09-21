@@ -19,8 +19,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Salam, I'm Lorem Ipsum, a software engineer by degree and translator (English/Indonesian). You can contact me through
-          <a href="https://github.com/firdan-machda">github</a>.
+        <p>Salam, I'm Lorem Ipsum, a software engineer by degree and translator (English/Indonesian). You can contact me through <a href="https://github.com/firdan-machda">github</a>.
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}

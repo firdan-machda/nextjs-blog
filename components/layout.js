@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = "Mr. Lorem Ipsum"
+const name = "Mr. Whale Steward"
 export const siteTitle = 'Next.js Sample Website'
 
 
@@ -52,11 +52,11 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
+            <h3 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-            </h2>
+            </h3>
           </>
         )}
       </header>
@@ -68,6 +68,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <div className={styles.footer}>devel version</div>
     </div>
   )
 }
